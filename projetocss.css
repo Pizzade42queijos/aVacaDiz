@@ -1,0 +1,127 @@
+
+html{
+	height: 100%;
+}
+/* fontes extras */
+@font-face{
+	font-family: "happycow";
+	src: url(happycow.ttf);
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: ##DCDCDC;
+	margin: 0;
+	padding: 0;
+	background-image: url('backgroundcowprint.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.menu {
+	width: 100%;
+    overflow:auto;
+	height: 100px;
+	background-color: #303237;
+}
+main{
+	margin: 0 auto;
+	width: 900px;
+	position: relative;
+}
+.logo{
+	position: absolute;
+	background-color: transparent;
+}
+.Digitadorcampo{
+	margin: 0 auto;
+	position: relative;
+	width: 500px;
+	border: 3px solid white;
+	height:30px;
+	overflow: hidden;
+	margin-top: 20px;
+	
+}
+.digitador-txt{
+	height:30px;
+	width: 350px;
+}
+.btn {
+  height: 30px;
+  line-height: 30px;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  background: gray;
+  color: black;
+  border: none;
+  width: 30%;
+  font-weight: bold;
+  position: absolute;
+}
+
+/* lado esquerdo da tela */
+.boxVaca{
+	float: left;
+	left: 5px;
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	
+}
+.UpperVaca{
+	text-align: center;
+}
+.boxVaca .UpperVaca header{
+	position: relative;
+	background: transparent;
+	height: 40px;
+	font-family: "happycow"
+	
+}
+.boxVaca .UpperVaca .FTvaca{
+	position: relative;	
+	border: 2px solid #000;
+	width:100%;
+}
+
+.Avaca{
+	margin-top:20px;
+	font-size: 32px;
+	text-transform: upper-latin;
+}
+
+/* lado direito da tela */
+.VacaSpeak{
+	float: right;
+	position: absolute;
+	right: 10px;
+	width: 800px;
+}
+
+
+.VacaSpeak header {
+	position: relative;	
+	background: transparent;
+	height: 45px;
+	font-family: "happycow"
+}
+
+/* caixa externa fala */
+.VacaSpeak .FalaBox{
+	margin-top: 100px;
+	width: 760px;
+	height: 200px;
+	border: 2px solid #000;
+	padding: 10px;
+	background: white;
+}
+/* textfield interno */
+.VacaSpeak .FalaBox .Mytextarea{
+	resize: none;
+	width: 100%;
+	height: 100%;
+	font-size: 40px;
+}

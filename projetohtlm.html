@@ -1,0 +1,60 @@
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" >
+<meta name="viewport" content="width=devide-width, initial-scale=1.0">
+<meta name="author" content="Audemário">
+<meta name="description" content="A vaca gosta de dizer coisas">
+<title>VacaDiz</title>
+<!-- CSS AQUI -->
+<link rel="stylesheet" type="text/css" href="projetocss.css">
+<!-- JS no fundo da página -->
+</head>
+<body>
+<header class="menu">
+	<div class="headerfundo">
+		<main>
+			<div class="logo">
+				aVacadiz.com<img src="polishcow.gif" alt="El gobierno gobierna" width="60px" height="60px">
+			</div>
+			<form class="Digitadorcampo">
+				<audio id="VacaSom1">
+					<source src="cowsound.mp3" type="audio/mpeg">
+				</audio>
+				<input class="digitador-txt" type="text" id="typed" name="" size="60" maxlength="100" placeholder="Digite o que a Vaca vai dizer">
+				<button value="Save" type="button" id="btn" class="btn" >Diga isso!</button>
+			</form>
+		</main>
+	</div>
+</header>
+	<section>
+		<div>
+		<div class="boxVaca">
+			<div class="UpperVaca">
+				<header>
+					<h3 id="Avaca">A  V A C A</h3>
+				</header>
+				<body>
+					<div class="FTvaca">
+						<img src="vaca.jpg" alt="Oi eu sou uma vaca" width="500px" height="400px">
+					</div>
+				</body>
+		</div>
+		</div>
+		<div>
+		<div class="VacaSpeak">
+			<header>
+				<h3 id="FalaHeader">D I Z :</h3>
+			</header>
+			<body>
+				<div class="FalaBox">
+						<textarea readonly class="Mytextarea" id="mytextarea"></textarea>
+				</div>
+			</body>
+		</div>
+		</div>
+	</section>
+	<script src="speaker1.js" defer></script>
+</body>
+
+
+</html>
